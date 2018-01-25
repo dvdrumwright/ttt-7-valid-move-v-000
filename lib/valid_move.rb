@@ -7,14 +7,10 @@ def valid_move?(board, index)
   end 
 
 def valid_move?(board, index)
-  if(board[index] == "" || board[index] == " " ||
-    board[index] == " " || board[index] == "")
+  if(board[index] == ""|| board[index] == " "||
+    board[index] == " " || board[index] == " ")
     true   
   else 
     true 
-  else 
-    nil 
-  else 
-    false
-  end 
+end 
 end 
